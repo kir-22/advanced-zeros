@@ -46,6 +46,7 @@ function countAr(countNum) {
     let min=0;
     for(let i=0; i < arrM.length; i++){
         c[i]=Math.floor(countAr(arrM1[i])/arrM[i]);
+
     }
     c.sort((a,b) => {
         return a-b;
@@ -53,7 +54,7 @@ function countAr(countNum) {
         min=c[0];
         return min;
 }
-
+//расскладываем систему на множители
    function simpleNumber(num) {
 
        let array = new Array(),
@@ -75,7 +76,7 @@ function countAr(countNum) {
     return array;
    }
 
-    let zeros=result();
+    
 
-    return zeros;
+    return result();
 }
